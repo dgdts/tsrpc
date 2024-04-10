@@ -13,7 +13,8 @@ import (
 	"strings"
 	"sync"
 	"time"
-	"tsrpc/codec"
+
+	"github.com/dgdts/tsrpc/codec"
 )
 
 // Call represents an RPC call.

@@ -5,7 +5,8 @@ import (
 	"io"
 	"reflect"
 	"sync"
-	"tsrpc"
+
+	"github.com/dgdts/tsrpc"
 )
 
 // XClient represents an RPC client that supports dynamic server discovery.

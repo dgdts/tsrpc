@@ -13,7 +13,8 @@ import (
 	"strings"
 	"sync"
 	"time"
-	"tsrpc/codec"
+
+	"github.com/dgdts/tsrpc/codec"
 )
 
 // MagicNumber is the magic number for identifying TS RPC protocol.

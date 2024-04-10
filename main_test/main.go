@@ -7,9 +7,10 @@ import (
 	"net/http"
 	"sync"
 	"time"
-	"tsrpc"
-	"tsrpc/registry"
-	"tsrpc/xclient"
+
+	"github.com/dgdts/tsrpc"
+	"github.com/dgdts/tsrpc/registry"
+	"github.com/dgdts/tsrpc/xclient"
 )
 
 // Foo represents a sample type for testing.
